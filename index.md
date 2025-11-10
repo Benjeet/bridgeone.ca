@@ -1,3 +1,9 @@
+---
+layout: single
+title: "Bridge One Technologies"
+excerpt: "Connecting data. Empowering decisions."
+classes: wide
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>

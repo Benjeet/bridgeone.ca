@@ -1,0 +1,30 @@
+title: Bridge One Technologies
+description: Secure data fusion & decision systems
+url: "https://bridgeone.ca"
+
+# Use Minimal Mistakes via remote_theme (works on GitHub Pages)
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# GitHub Pages–compatible plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Minimal Mistakes options
+minimal_mistakes_skin: "dark"   # try: default, air, dark, contrast, neon
+locale: "en-CA"
+
+# Navigation (we’ll add pages below)
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+# SEO bits
+logo: /assets/img/logo.png      # add later if you have one
+
