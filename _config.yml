@@ -16,15 +16,8 @@ plugins:
 minimal_mistakes_skin: "dark"   # try: default, air, dark, contrast, neon
 locale: "en-CA"
 
-# Navigation (we’ll add pages below)
-nav:
-  - title: Home
-    url: /
-  - title: About
-    url: /about/
-  - title: Contact
-    url: /contact/
-
 # SEO bits
 logo: /assets/img/logo.png      # add later if you have one
+
+
 
