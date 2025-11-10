@@ -13,7 +13,7 @@ plugins:
   - jekyll-include-cache
 
 # Minimal Mistakes options
-minimal_mistakes_skin: "dark"   # try: default, air, dark, contrast, neon
+minimal_mistakes_skin: "neon"   # try: default, air, dark, contrast, neon
 locale: "en-CA"
 
 # SEO bits
