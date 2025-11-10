@@ -1,101 +1,42 @@
 ---
-layout: single
+layout: splash
 title: "Bridge One Technologies"
-excerpt: "Connecting data. Empowering decisions."
+excerpt: "Connecting Data. Empowering Decisions."
 classes: wide
+header:
+  overlay_color: "#0b0e14"
+  overlay_filter: "0.75"
+  overlay_image: /assets/img/network-bg.jpg # optional background image
+  actions:
+    - label: "Contact Us"
+      url: "mailto:info@bridgeone.ca"
+      btn_class: "btn--primary"
+feature_row:
+  - title: "Secure Data Fusion"
+    excerpt: "Connecting and interpreting data across sensors, networks, and organizations."
+    icon: "fas fa-network-wired"
+  - title: "Sovereign Decision Systems"
+    excerpt: "Empowering defense, infrastructure, and emergency response operations."
+    icon: "fas fa-shield-alt"
+  - title: "AI-Assisted Command & Control"
+    excerpt: "Advancing clarity and coordination through secure, ontology-driven software."
+    icon: "fas fa-brain"
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bridge One Technologies — Connecting Data. Empowering Decisions.</title>
-  <style>
-    body {
-      font-family: "Inter", sans-serif;
-      background-color: #0b0e14;
-      color: #f1f5f9;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
-    }
-    h1 {
-      font-size: 2.4rem;
-      font-weight: 700;
-      margin-bottom: 0.25rem;
-      color: #00b3ff;
-    }
-    h2 {
-      font-weight: 400;
-      color: #a0aec0;
-      margin-bottom: 1.75rem;
-    }
-    p {
-      max-width: 640px;
-      line-height: 1.6;
-      font-size: 1.05rem;
-      color: #d1d5db;
-      margin-bottom: 1.25rem;
-    }
-    .cta {
-      margin-top: 1.5rem;
-      padding: 0.75rem 1.5rem;
-      border: 1px solid #00b3ff;
-      border-radius: 6px;
-      color: #00b3ff;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      text-decoration: none;
-    }
-    .cta:hover {
-      background-color: #00b3ff;
-      color: #0b0e14;
-    }
-    footer {
-      position: absolute;
-      bottom: 20px;
-      font-size: 0.9rem;
-      color: #6b7280;
-    }
-    a {
-      color: #00b3ff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
 
-  <h1>Bridge One Technologies</h1>
-  <h2>Connecting Data. Empowering Decisions.</h2>
+## Secure data fusion & decision systems
 
-  <p>
-    Bridge One Technologies builds secure, ontology-driven software that connects and interprets data across sensors, networks, and organizations. 
-    Our mission is to give Canadian and allied partners the ability to see, simulate, and act with clarity in complex operational environments.
-  </p>
+**Bridge One Technologies** builds secure, ontology-driven software that connects and interprets data across sensors, networks, and organizations.  
+Our mission is to give Canadian and allied partners the ability to see, simulate, and act with clarity in complex operational environments.
 
-  <p>
-    We are developing Canada’s sovereign data fusion and decision platform — engineered for defense, infrastructure, and emergency response systems.
-  </p>
+We are developing **Canada’s sovereign data fusion and decision platform** — engineered for defense, infrastructure, and emergency response systems.
 
-  <p>
-    Supported through Canada’s innovation ecosystem, including NRC IRAP and the IDEaS program, Bridge One Technologies collaborates with government and industry to advance secure, AI-assisted command and control.
-  </p>
+Supported through **Canada’s innovation ecosystem**, including NRC IRAP and the IDEaS program, Bridge One Technologies collaborates with government and industry to advance secure, AI-assisted command and control.
 
-  <a class="cta" href="mailto:info@bridgeone.ca">Contact Us</a>
+{% include feature_row %}
+---
 
-  <footer>
-    © 2025 Bridge One Technologies Inc. | Canadian Controlled | <a href="mailto:info@bridgeonetechnologies.ca">info@bridgeonetechnologies.ca</a>
-  </footer>
-
-</body>
-</html>
+<div style="text-align:center; margin-top:2rem; font-size:0.9rem; color:#9ca3af;">
+© 2025 Bridge One Technologies Inc. | Canadian Controlled | 
+<a href="mailto:info@bridgeonetechnologies.ca">info@bridgeonetechnologies.ca</a>
+</div>
 
