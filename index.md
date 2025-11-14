@@ -44,43 +44,37 @@ We serve Canadian and allied agencies that need secure situational awareness, co
 - Roadmap for scaling to richer analytics, auth, and mission packaging.
 
 {% assign highlights = site.data.proof_points.highlights %}
-<div class="grid__wrapper" style="margin-top:2rem;">
+<div class="proof-points" role="list">
 {% for item in highlights %}
-  <div class="grid__item one-third">
-    <div class="card">
-      <div class="card__content" style="text-align:center;">
-        <p style="font-size:2.2rem; font-weight:700; margin-bottom:0;">{{ item.value }}</p>
-        <p style="text-transform:uppercase; letter-spacing:0.08em; font-size:0.85rem; margin:0;">{{ item.label }}</p>
-        <p style="font-size:0.9rem; color:#94a3b8; margin-top:0.5rem;">{{ item.detail }}</p>
-      </div>
-    </div>
-  </div>
+  <article class="proof-points__card" role="listitem">
+    <p class="proof-points__label">{{ item.label }}</p>
+    <p class="proof-points__value">{{ item.value }}</p>
+    <p class="proof-points__detail">{{ item.detail }}</p>
+  </article>
 {% endfor %}
 </div>
 
 {% assign programs = site.data.proof_points.programs %}
-<div class="notice--info" style="margin-top:2rem;">
-  <strong>Innovation partners</strong>
-  <div class="grid__wrapper" style="margin-top:1rem;">
-  {% for program in programs %}
-    <div class="grid__item one-third">
-      <p style="font-weight:600;">{{ program.name }}</p>
-      <p style="font-size:0.9rem;">{{ program.blurb }}</p>
-    </div>
-  {% endfor %}
-  </div>
+### Innovation partners
+<div class="program-grid" role="list">
+{% for program in programs %}
+  <article class="program-card" role="listitem">
+    <h4>{{ program.name }}</h4>
+    <p>{{ program.blurb }}</p>
+  </article>
+{% endfor %}
 </div>
 
 {% assign testimonials = site.data.proof_points.testimonials %}
-<section style="margin-top:2rem;">
-  <h3>What reviewers are saying</h3>
-  {% for quote in testimonials %}
-    <blockquote>
-      <p>{{ quote.quote }}</p>
-      <cite>— {{ quote.author }}</cite>
-    </blockquote>
-  {% endfor %}
-</section>
+### What reviewers are saying
+<div class="testimonial-grid">
+{% for quote in testimonials %}
+  <blockquote class="testimonial-card">
+    <p>{{ quote.quote }}</p>
+    <cite>— {{ quote.author }}</cite>
+  </blockquote>
+{% endfor %}
+</div>
 
 📂 **Open implementation:** [github.com/bridgeone/bridgeone](https://github.com/bridgeone/bridgeone) — includes README demos, ROADMAP, and MVP checklist for due diligence.
 
