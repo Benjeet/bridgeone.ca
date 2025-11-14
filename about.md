@@ -20,7 +20,7 @@ permalink: /about/
 
 ### Leadership & advisors
 
-- **Benjeet Bains – Founder & CEO.** Former CAF reservist and technologist guiding modernization programs across government and critical infrastructure.  
+- **Bains – Founder & CEO.** Former reservist and technologist guiding modernization programs across government and critical infrastructure.  
 - **Advisory circle.** Mission veterans from NORAD, public safety, and venture capital who help steer commercialization, compliance, and scaling.  
 - **Delivery partners.** Trusted SMEs for TAK, PostGIS, and security accreditation who embed with us as needed.
 
