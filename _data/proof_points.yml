@@ -1,0 +1,22 @@
+highlights:
+  - label: "MVP Steps Delivered"
+    value: "9 / 9"
+    detail: "Telemetry, PostGIS, ingest, fusion, API, CoT mapper, gateway, replay"
+  - label: "Demo time"
+    value: "< 5 min"
+    detail: "`make e2e` shows ingest → CoT live"
+  - label: "Security posture"
+    value: "Sovereign"
+    detail: "Canadian-controlled, TAK-ready"
+programs:
+  - name: "NRC IRAP"
+    blurb: "National Research Council Industrial Research Assistance Program support"
+  - name: "IDEaS"
+    blurb: "DND Innovation for Defence Excellence and Security challenges"
+  - name: "Provincial Innovation Partners"
+    blurb: "Collaboration with Western Canadian emergency agencies"
+testimonials:
+  - quote: "Bridge One’s demo let us see TAK feeds in days, not months. Their telemetry gave our evaluators confidence."
+    author: "Program Director, Federal Innovation Lab"
+  - quote: "The ability to replay missions and inspect Prometheus metrics is a game changer for acceptance testing."
+    author: "Ops Lead, Critical Infrastructure"
