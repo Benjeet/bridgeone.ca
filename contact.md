@@ -4,7 +4,7 @@ title: "Contact"
 permalink: /contact/
 ---
 
-- Email: [benjeet@bridgeone.ca](mailto:benjeet@bridgeone.ca)  
+- Email: [info@bridgeone.ca](mailto:info@bridgeone.ca)  
 - General: [info@bridgeone.ca](mailto:info@bridgeone.ca)
 - GitHub: [github.com/bridgeone](https://github.com/bridgeone)
 
